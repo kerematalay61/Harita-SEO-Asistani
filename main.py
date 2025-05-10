@@ -10,3 +10,5 @@ if __name__ == "__main__":
     app.run(debug=True)
 from routes import routes
 app.register_blueprint(routes)
+from scheduler import start_scheduler
+start_scheduler()
