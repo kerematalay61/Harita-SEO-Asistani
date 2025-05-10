@@ -7,7 +7,7 @@ app.register_blueprint(routes)
 
 @app.route("/")
 def index():
-    return render_template("login.html")  # ← artık HTML gösterir
+    return render_template("login.html") 
 
 if __name__ == "__main__":
     start_scheduler()
