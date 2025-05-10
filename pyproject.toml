@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HaritaSEOAsistani"
+version = "1.0.0"
+description = "Google Haritalar için AI destekli yorum ve pinleme aracı."
+authors = [
+    { name = "Kerem Atalay", email = "keremazra61@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "Flask",
+    "requests",
+    "openai",
+    "faker",
+    "python-dotenv",
+    "beautifulsoup4",
+    "selenium",
+    "webdriver-manager",
+    "pillow",
+    "smtplib",
+    "email-validator",
+    "schedule",
+    "user-agents",
+    "bcrypt"
+]
