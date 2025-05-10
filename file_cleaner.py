@@ -16,3 +16,4 @@ def clean_directory(path, max_age_seconds=86400):
             if file_age > max_age_seconds:
                 os.remove(file_path)
                 print(f"Silindi: {file_path}")
+clean_directory("static/uploads", 3600)  # 1 saatten eski tüm dosyaları sil
