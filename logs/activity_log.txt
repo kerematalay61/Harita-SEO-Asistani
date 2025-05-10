@@ -1,1 +1,3 @@
 [INFO] Sistem logları buraya yazılacak.
+[INFO] Sistem log kayıt dosyası.
+Tüm pinleme, yorum ve işletme açma işlemleri buraya kaydedilir.
