@@ -9,3 +9,12 @@
   {% block content %}{% endblock %}
 </body>
 </html>
+{% extends "layout.html" %}
+{% block content %}
+<h2>Giriş Paneli</h2>
+<form method="post">
+  <input type="text" name="email" placeholder="E-posta adresiniz"><br>
+  <input type="password" name="password" placeholder="Şifreniz"><br>
+  <button type="submit">Giriş Yap</button>
+</form>
+{% endblock %}
