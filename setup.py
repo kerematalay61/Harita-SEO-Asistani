@@ -33,6 +33,3 @@ setup(
     ],
     python_requires='>=3.8',
 )
-git add setup.py
-git commit -m "setup.py dosyası eklendi"
-git push origin main
