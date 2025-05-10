@@ -20,7 +20,6 @@ setup(
         "selenium",
         "webdriver-manager",
         "pillow",
-        "smtplib",
         "email-validator",
         "schedule",
         "user-agents",
