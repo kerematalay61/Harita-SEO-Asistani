@@ -1,14 +1,15 @@
-from flask import Flask
+from flask import Flask, render_template
+from routes import routes
+from scheduler import start_scheduler
 
 app = Flask(__name__)
+app.register_blueprint(routes)
 
 @app.route("/")
 def index():
-    return "Harita SEO Asistanı Sistemi Aktif!"
+    return render_template("login.html")  # ← artık HTML gösterir
 
 if __name__ == "__main__":
+    start_scheduler()
     app.run(debug=True)
-from routes import routes
-app.register_blueprint(routes)
-from scheduler import start_scheduler
-start_scheduler()
+
