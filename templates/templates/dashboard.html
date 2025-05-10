@@ -8,3 +8,13 @@
   <button type="submit">Giriş</button>
 </form>
 {% endblock %}
+{% extends "layout.html" %}
+{% block content %}
+<h2>Hoş geldin {{ user }}!</h2>
+<p>Yönetim paneline erişiyorsunuz.</p>
+<ul>
+  <li>Yorum oluştur</li>
+  <li>Pin at</li>
+  <li>İşletme aç</li>
+</ul>
+{% endblock %}
