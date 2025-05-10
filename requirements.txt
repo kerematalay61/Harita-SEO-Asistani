@@ -1,0 +1,9 @@
+Flask
+requests
+openai
+faker
+python-dotenv
+beautifulsoup4
+selenium
+webdriver-manager
+pillow
