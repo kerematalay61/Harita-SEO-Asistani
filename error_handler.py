@@ -11,3 +11,7 @@ def log_error(error):
         log_file.write(traceback.format_exc())
         log_file.write("\n---\n")
     print(f"[!] Hata loglandı: {error}")
+try:
+    # işlem
+except Exception as e:
+    log_error(e)
