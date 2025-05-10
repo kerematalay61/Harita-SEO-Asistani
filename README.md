@@ -45,7 +45,3 @@ python initial_setup.py
 python app.py
 
 ---
-
-📌 Bunu doğrudan `README.md` adlı bir dosyaya yapıştır, GitHub'a push et, işlem tamamdır.
-
-Hazırsan şimdi `setup.py` dosyasına geçelim mi?
